@@ -74,7 +74,7 @@
             if($prod['product_id'] == 52){ ?>
             <ul class="thumbnails thumbnails-q50">
               <li>
-                <a class="thumbnail cloud-zoom" id='zoom1' href="<?php echo $prod['thumb'] ?>" rel=" adjustY:500, position:'right',adjustY:-4, zoomHeight:'500',tintOpacity:0.2, smoothMove:3" title="<?php echo $heading_title; ?>"><img src="<?php echo $prod['thumb'] ?>" class="img-responsive" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a></li>
+                <a class="thumbnail cloud-zoom" id='zoom1' href=" <?php echo $prod['thumb'] ?>" rel=" adjustY:500, position:'right',adjustY:-4, zoomHeight:'500',tintOpacity:0.2, smoothMove:3" title="<?php echo $heading_title; ?>"><img src="<?php echo $prod['thumb'] ?>" class="img-responsive" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a></li>
               <?php if ($images) { ?>
               <?php foreach ($images as $image) { ?>
               <li class="image-additional">
@@ -323,6 +323,7 @@
           <span></span>
         </div>
       </div>
+
 
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
