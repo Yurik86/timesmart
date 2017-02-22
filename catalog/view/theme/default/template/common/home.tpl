@@ -40,10 +40,10 @@
           <div class="slide active " >
             <div class="container ">
               <div class="row-fluid marg">
-                <h2>Позвольте свободу себе и ребенку</h2>
+                <h2>Позвольте свободу себе и ребенку <br/> вместе с <b>Q50 Smart Baby Watch</b></h2>
 
 
-                <div class="col-sm-4">
+                <div class="col-sm-4 col-xs-8">
                         <img src="/image/Q50P.png" class="img-responsive">
                   <p class="price">
                     750 грн.
@@ -156,8 +156,8 @@
   </div>
 
   <div class="section" id="video">
-    <div class="container marg">
-      <div class="row">
+    <div class="container ">
+      <div class="row marg">
         <div class="col-sm-10 col-sm-offset-1">
           <video width="100%" height="100%" controls="controls">
             <source src="/video/Baby%20smart%20watch.mp4" type="video/mp4">
@@ -185,7 +185,7 @@
           <button type="button" class="click-hak">Характеристики</button>
 
         </div>
-        <div class="col-sm-5 col-sm-offset-1 zindex marg p-q90" >
+        <div class="col-sm-5 col-xs-8 col-sm-offset-1 zindex marg-mobile p-q90" >
           <p>Теперь вы можете не переживать о месте нахождения. </p>
           <p>Smart Baby Watch отследит его <br/> место нахождения в реальном <br/> времени, а также покажет <br/> историю передвижений.</p>
         </div>
@@ -210,23 +210,26 @@
       <div class="row-fluid marg">
         <h2>Smart Baby Watch Q750</h2>
 
-        <div class="col-sm-5 marg p-q90">
+        <div class="hidden-md hidden-lg mobile-fon-q750">
+          <img src="/image/Foto2.png" class="img-responsive">
+        </div>
+        <div class="col-sm-5 col-xs-9  col-sm-push-7 zindex marg-mobile ">
+          <img src="/image/Q750P.png" class="img-responsive" alt="Q750 Smart Baby Watch">
+          <p class="price">
+            750 грн.
+          </p>
+          <button type="button" onclick="cart.add(52);">Купить</button>
+          <br>
+
+        </div>
+        <div class="col-sm-5 col-xs-12 col-sm-pull-4 marg-mobile p-q90">
           <p>Звонить, посылать короткие сообщение теперь можно с Smart Baby Watch. Они всегда на руке Вашего ребенка. Потерять их очень сложно.</p>
           <p>Как только часы сняты с руки, на Ваш дивайс приходит предупреждающее сообщение.</p>
           <p>Послать сигнал SOS возможно нажатием всего одной кнопки и Вы уже на связи</p>
           <button type="button" class="click-hak">Узнать больше</button>
         </div>
 
-        <div class="col-sm-5 col-sm-offset-1 zindex marg">
-          <img src="/image/Q750P.png" class="img-responsive" alt="Q750 Smart Baby Watch">
-          <p class="price">
-            750 грн.
-          </p>
-          <button type="button" onclick="cart.add(52);"><span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?>Купить</button>
-          <br>
 
-
-        </div>
 
       </div>
 
@@ -237,10 +240,10 @@
   
   <div class="section" id="a8">
     <div class="container marg">
-      <div class="col-sm-5 col-sm-offset-1">
+      <div class="col-sm-5 col-xs-7 col-sm-offset-1 marg">
         <img src="/image/A8P.png" class="img-responsive" alt="A8 Smart Watch">
       </div>
-      <div class="col-sm-3 col-sm-offset-2">
+      <div class="col-sm-3 col-xs-4 boy-mobile col-sm-offset-2">
         <img src="/image/boy.png" class="img-responsive" alt="A8 Smart Watch">
       </div>
     </div>
@@ -249,10 +252,23 @@
 
   <div class="section" id="G1">
     <div class="container marg">
-      <div class="col-sm-4 pull-right marg">
-        <img src="/image/G1P.png" class="img-responsive" alt="G1 Smart Watch">
+      <h2>Smart Watch G1</h2>
+      <div class="col-sm-4 col-xs-7  pull-right zindex marg p-q90">
+        <div class="col-sm-12 col-xs-8">
+          <img src="/image/G1P.png" class="img-responsive" alt="G1 Smart Watch">
+          <p class="price">
+            750 грн.
+          </p>
+          <button type="button" onclick="cart.add(52);">Купить</button>
+        </div>
+        <div class="clear"></div>
+        <p>Даже когда Вы далеко, <br/> Ваши близкие чувствуют заботу о них вместе с Smart Watch</p>
       </div>
+      <div class="G1-fon">
+        <img src="/image/F3.png" class="img-responsive" alt="G1 Smart Watch">
 
+
+      </div>
     </div>
   </div>
 

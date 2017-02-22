@@ -99,7 +99,7 @@
      <?php echo $cart; ?>
 
       </div>
-      <div id="logo" class="col-sm-4 col-xs-6">
+      <div id="logo" class="col-sm-4 col-xs-4">
         <?php if ($logo) { ?>
         <?php if ($home == $og_url) { ?>
         <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" />
